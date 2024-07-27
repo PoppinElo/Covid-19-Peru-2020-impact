@@ -13,7 +13,7 @@ The COVID-19 pandemic has had a profound impact globally, and understanding its 
 Our initial hypothesis is that regions with more health centers and health posts would have lower numbers of COVID-19 positive cases and deaths due to better healthcare accessibility.
 
 ## Data
-We used three datasets for this analysis, all sourced from the [Open Data National Platform from Peru](https://www.datosabiertos.gob.pe/) and from the [INEI platform](https://m.inei.gob.pe/estadisticas/indice-tematico/health-sector-establishments/)
+We used three datasets for this analysis, all sourced from the [Kaggle Peru Covid-19 dataset](https://www.kaggle.com/datasets/martinclark/peru-covid19-august-2020), [Open Data National Platform from Peru](https://www.datosabiertos.gob.pe/) and from the [INEI platform](https://m.inei.gob.pe/estadisticas/indice-tematico/health-sector-establishments/)
 1. **Health Centers and Posts**: Contains the number of health centers (`NUM_CENTROS_SALUD`) and health posts (`NUM_PUESTOS_SALUD`) per department.
 2. **Positive Cases**: Contains the total number of positive COVID-19 cases (`total_positive_cases`) per department.
 3. **Deceased Cases**: Contains the total number of deceased COVID-19 cases (`total_deceased_cases`) per department.
