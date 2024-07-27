@@ -43,11 +43,23 @@ We generated scatter plots to visualize the relationships between:
 
 ### Correlation Matrix (Including LIMA)
 
-![Correlation Matrix](https://github.com/PoppinElo/Covid-19-Peru-2020-impact/blob/main/corrM_w_L.png)
+![Correlation Matrix](https://github.com/PoppinElo/Covid-19-Peru-2020-impact/blob/main/images/corrM_w_L.png)
 
 ### Correlation Matrix (Excluding LIMA)
 
-![Correlation Matrix](https://github.com/PoppinElo/Covid-19-Peru-2020-impact/blob/main/corrM_wo_L.png)
+![Correlation Matrix](https://github.com/PoppinElo/Covid-19-Peru-2020-impact/blob/main/images/corrM_wo_L.png)
+
+### Correlation Scatters (Including LIMA)
+
+![Health Establishment vs Positive Cases](https://github.com/PoppinElo/Covid-19-Peru-2020-impact/blob/main/images/HE_pos_wLima.png)
+
+![Health Establishment vs Deceased Cases](https://github.com/PoppinElo/Covid-19-Peru-2020-impact/blob/main/images/HE_dec_wLima.png)
+
+### Correlation Scatters (Excluding LIMA)
+
+![Health Establishment vs Positive Cases](https://github.com/PoppinElo/Covid-19-Peru-2020-impact/blob/main/images/HE_pos_woLima.png)
+
+![Health Establishment vs Deceased Cases](https://github.com/PoppinElo/Covid-19-Peru-2020-impact/blob/main/images/HE_dec_woLima.png)
 
 ## Interpretation
 
