@@ -1,9 +1,10 @@
 # COVID-19 Impact Analysis in Peru
 
 - Name: Kevin Juan Román Rafaele
-- email: mrredsky.2095@gmail.com
 - LinkedIn: https://www.linkedin.com/in/kevin-juan-r-997530117/
+- Email: mrredsky.2095@gmail.com
 - GitHub: https://github.com/PoppinElo
+- License: MIT License
 
 ## Motivation
 The COVID-19 pandemic has had a profound impact globally, and understanding its effects at a regional level can help improve public health responses. This project aims to analyze the relationship between healthcare infrastructure (specifically health centers and posts) and the number of COVID-19 positive cases and deaths in Peru during 2020.
@@ -12,7 +13,7 @@ The COVID-19 pandemic has had a profound impact globally, and understanding its 
 Our initial hypothesis is that regions with more health centers and health posts would have lower numbers of COVID-19 positive cases and deaths due to better healthcare accessibility.
 
 ## Data
-We used three datasets for this analysis, all sourced from the [Open Data National Platform from Peru](https://www.datosabiertos.gob.pe/):
+We used three datasets for this analysis, all sourced from the [Open Data National Platform from Peru](https://www.datosabiertos.gob.pe/) and from the [INEI platform](https://m.inei.gob.pe/estadisticas/indice-tematico/health-sector-establishments/)
 1. **Health Centers and Posts**: Contains the number of health centers (`NUM_CENTROS_SALUD`) and health posts (`NUM_PUESTOS_SALUD`) per department.
 2. **Positive Cases**: Contains the total number of positive COVID-19 cases (`total_positive_cases`) per department.
 3. **Deceased Cases**: Contains the total number of deceased COVID-19 cases (`total_deceased_cases`) per department.
@@ -59,9 +60,13 @@ We generated scatter plots to visualize the relationships between:
 
 The analysis shows weak correlations between the number of health centers/posts and the total positive and deceased cases. This suggests that other factors, such as population density, healthcare quality, and public health policies, might play more significant roles.
 
+### With LIMA Department
+
+Weak but notable correlations are observed. The strong correlation between positive and deceased cases are notable. The Lima department relations can be identified as a outlier.
+
 ### Without LIMA Department
 
-Excluding the 'LIMA' department did not significantly change the weak correlations observed. The strong correlation between positive and deceased cases persisted.
+Excluding the 'LIMA' department change for a little the weak correlations observed. The strong correlation between positive and deceased cases persisted.
 
 ## Suggestions
 
@@ -81,14 +86,8 @@ This analysis provides initial insights into the relationship between healthcare
     cd Covid-19-Peru-2020-impact
     ```
 
-2. **Install the required packages**:
-    ```sh
-    pip install -r requirements.txt
-    ```
+2. **Run the notebook**:
+   ```
+    jupyter covid-peru-impact.ipynb
+   ```
 
-3. **Run the notebooks**:
-    Open and run the notebooks in the `notebooks` directory using Jupyter Notebook.
-
-## Contact
-
-For any questions or suggestions, feel free to reach out to [your email].
